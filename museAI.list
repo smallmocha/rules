@@ -19,33 +19,33 @@
 # 搭配上游 VPSDance/ai-proxy-rules 的 meta-ai.list 一起使用 (该库已包含 DOMAIN-SUFFIX,meta.ai 等 Meta AI/Llama 通用规则)
 
 # === 核心: Muse 应用域名 ===
-DOMAIN-SUFFIX,muse.ai
-DOMAIN-SUFFIX,museai.com
-DOMAIN-SUFFIX,meta.ai
-DOMAIN-SUFFIX,meta.com
-DOMAIN-SUFFIX,atmeta.com
+DOMAIN-SUFFIX,muse.ai,美国节点
+DOMAIN-SUFFIX,museai.com,美国节点
+DOMAIN-SUFFIX,meta.ai,美国节点
+DOMAIN-SUFFIX,meta.com,美国节点
+DOMAIN-SUFFIX,atmeta.com,美国节点
 
 # === 云端虚拟机 (Secure VM) 基础设施 ===
-DOMAIN-SUFFIX,metaaivm.com
-DOMAIN-SUFFIX,metaaiusercontent.com
-DOMAIN-SUFFIX,ecto1usercontent.com
-DOMAIN,hatch.ecto1.ai
-DOMAIN,node.hatch.one
-DOMAIN,meta.privacy-gateway.cloudflare.com
-DOMAIN,meta.hpke-keys.privacy-gateway.cloudflare.com
-DOMAIN,meta-ohttp-relay-prod.fastly-edge.com
-DOMAIN,meta-ohttp-config-prod.fastly-edge.com
+DOMAIN-SUFFIX,metaaivm.com,美国节点
+DOMAIN-SUFFIX,metaaiusercontent.com,美国节点
+DOMAIN-SUFFIX,ecto1usercontent.com,美国节点
+DOMAIN,hatch.ecto1.ai,美国节点
+DOMAIN,node.hatch.one,美国节点
+DOMAIN,meta.privacy-gateway.cloudflare.com,美国节点
+DOMAIN,meta.hpke-keys.privacy-gateway.cloudflare.com,美国节点
+DOMAIN,meta-ohttp-relay-prod.fastly-edge.com,美国节点
+DOMAIN,meta-ohttp-config-prod.fastly-edge.com,美国节点
 
 # === WhatsApp 集成 (Muse 可运行在 WhatsApp 内) ===
-DOMAIN-SUFFIX,whatsapp.com
-DOMAIN-SUFFIX,whatsapp.net
+DOMAIN-SUFFIX,whatsapp.com,美国节点
+DOMAIN-SUFFIX,whatsapp.net,美国节点
 
 # === Meta 账号体系 / Facebook / Instagram 集成 ===
-DOMAIN-SUFFIX,facebook.com
-DOMAIN-SUFFIX,facebook.net
-DOMAIN-SUFFIX,fbcdn.net
-DOMAIN-SUFFIX,fbsbx.com
-DOMAIN-SUFFIX,fbpigeon.com
-DOMAIN-SUFFIX,fb.com
-DOMAIN-SUFFIX,instagram.com
-DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,facebook.com,美国节点
+DOMAIN-SUFFIX,facebook.net,美国节点
+DOMAIN-SUFFIX,fbcdn.net,美国节点
+DOMAIN-SUFFIX,fbsbx.com,美国节点
+DOMAIN-SUFFIX,fbpigeon.com,美国节点
+DOMAIN-SUFFIX,fb.com,美国节点
+DOMAIN-SUFFIX,instagram.com,美国节点
+DOMAIN-SUFFIX,cdninstagram.com,美国节点
